@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIcon?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+
+<AnchorPane id="AnchorPane" prefHeight="600.0" prefWidth="1300.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="samplefx.SampleFXController">
+   <children>
+      <Button fx:id="sampleButton" layoutX="357.0" layoutY="149.0" mnemonicParsing="false" prefHeight="72.0" prefWidth="170.0" text="Button">
+         <graphic>
+            <FontAwesomeIcon />
+         </graphic>
+      </Button>
+      <TextField fx:id="sampleTextField" layoutX="298.0" layoutY="75.0" prefHeight="38.0" prefWidth="287.0" />
+      <Label fx:id="sampleLabel" layoutX="267.0" layoutY="253.0" prefHeight="50.0" prefWidth="278.0" text="Rancid" />
+      <VBox fx:id="mainVbox" prefHeight="600.0" prefWidth="210.0" />
+   </children>
+</AnchorPane>
